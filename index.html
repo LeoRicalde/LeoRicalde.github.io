@@ -72,13 +72,13 @@
             <p>Preencha este formulário para receber mais informações:</p>
         </div>
         <div class="form-container">
-            <form>
+            <form action="mailto:" method="POST" enctype="text/plain">
                 <label for="name">Nome</label>
-                <input type="text" id="name" placeholder="Insira seu nome aqui...">
+                <input type="text" id="name" placeholder="Insira seu nome aqui..." required>
                 <label for="surname">Sobrenome</label>
-                <input type="text" id="surname" placeholder="Insira seu sobrenome aqui...">
+                <input type="text" id="surname" placeholder="Insira seu sobrenome aqui..." required>
                 <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Insira seu e-mail aqui...">
+                <input type="email" id="email" placeholder="Insira seu e-mail aqui..." required>
                 <button type="submit">Enviar</button>
             </form>
         </div>
